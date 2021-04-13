@@ -1,0 +1,14 @@
+package HomeWork.DZ5;
+
+public class Bird extends Animal{
+
+    Bird(String name, float maxJump, float maxRun, float maxSwim) {
+        super("Попугай", name, maxJump, maxRun, maxSwim);
+    }
+    @Override
+    protected int swim(float distance) {
+        return Animal.SWIM_NONE;
+    }
+}
+
+
